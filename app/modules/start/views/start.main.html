@@ -1,0 +1,26 @@
+<div id="main" class="container-fluid" ng-controller="PersonController as personController">
+    <div class="container">
+        <form role="form">
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Land</label>
+                    <select class="form-control" ng-options="person.country for person in personController.allPersons"
+                            ng-model="personController.selectedPerson" ng-change="personController.onChangeCountry()">
+                        <option value="">Välj ett land</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label>Personer</label>
+                    <select class="form-control" ng-options="person.name for person in personController.persons" ng-model="personController.person">
+                        <option value="">Välj en person</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="btn btn-primary">Spara</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
