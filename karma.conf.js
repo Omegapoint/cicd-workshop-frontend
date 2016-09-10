@@ -28,6 +28,10 @@ module.exports = function(config) {
 
         },
 
+        usePolling: true,
+
+        transports: ['xhr-polling', 'jsonp-polling'],
+
         plugins : [
             'karma-junit-reporter',
             'karma-chrome-launcher',
