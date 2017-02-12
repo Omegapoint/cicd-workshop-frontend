@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Olle Thalén",
+    "country": "Sweden"
+  },
+  {
+    "id": "2",
+    "name": "Jakob Kylberg",
+    "country": "Norway"
+  },
+  {
+    "id": "3",
+    "name": "Daniel Hultqvist",
+    "country": "Sweden"
+  },
+  {
+    "id": "4",
+    "name": "Pontus Thulin",
+    "country": "Norway"
+  }
+]

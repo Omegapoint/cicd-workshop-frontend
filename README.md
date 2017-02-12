@@ -1,7 +1,24 @@
-front-end app för multicores kompetensdag inom ci/cd
-==================
+Frontend application for CI/CD Workshop
+=======================================
+List Omegapoint personel. 
 
-* installera först node, sen: npm install -g grunt-cli, npm install -g bower
-* köra applikation: grunt serve
-* köra tester: grunt test
-* bygga applikationen: grunt build
+* All production code in src/app.jsx.
+* All test code in test/app.spec.jsx
+
+## Setup
+* Install node (https://www.nodejs.org)
+* Run `npm install` in this directory
+
+## Build
+* `npm run build`
+
+## Run dev server (port 3000)
+* `npm start`
+
+## Run tests
+* `npm test`
+
+## Package
+Build first, then:
+* `npm run package`
+A zip file is generated in the dist directory

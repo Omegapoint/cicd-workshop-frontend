@@ -3,3 +3,6 @@ node_modules
 reports
 .idea
 dist
+build
+*.zip
+*.log
